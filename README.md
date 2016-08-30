@@ -45,7 +45,7 @@ Want to insert real artist data? Go to artist-data-stage-1.php / artist-data-sta
 
 Want to make configurations to the ajax script? Go to main.js
 
-Want to make configurations to the youtube api? Go to app.js
+Want to make configurations to the youtube api? Go to app.js (Code by Mio Rogvall)
 
 ## API
 
