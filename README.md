@@ -2,13 +2,14 @@
 **Simple webbapp for musicfestivals**
 
 A simple webbapplication built in PHP to store data and Ajax to display data.
-Features two div that loops throught associative arrays in order to check if there's currently an artist playing.
+Features two divs that loops throught associative arrays in order to check if there's currently an artist playing.
 
 ## Demo
 
 [DEMO](http://www.jeffdesign.se/whosplaying)
 - note that the demo is designed to display dummy-artists every 5 seconds.
 - in production - see #Installation below.
+
 ## Code Example
 Core PHP function:
 ```sh
@@ -33,27 +34,25 @@ Core PHP function:
 
 
 ## Motivation
-Not all festivals has their own mobile/webapp so I built this app because I wanted to know myself which artists that was currently playing on an unspecific festival.
+Not all festivals has their own mobile/webapp so I built this webapp because I wanted to know myself which artists that was currently playing on an unspecific festival.
 
 ## Installation
 
-index.php only contains the markup while stage-1.php and stage-2.php contains core functions.
+index.php only contains the markup while stage-1.php and stage-2.php contains the core functions.
 Go to stage-1.php / stage-2.php and remove the last codeblock since it's only made for the demo.
 
 Want to insert real artist data? Go to artist-data-stage-1.php / artist-data-stage-2.php and start inserting relative artist-data.
 
 Want to make configurations to the ajax script? Go to main.js
 
+Want to make configurations to the youtube api? Go to app.js
+
 ## API
 
-The core API function is in app.js where the API is listening on the array-data.
+The core API function is in app.js where the API is listening on the artist-data.
 The object is then placed inside the iframe in order to give the currently-playing-artists a youtube thumbnail.
 
 - REMEMBER TO ADD APIKEY IN APP.JS
-
-## Tests
-
-Describe and show how to run the tests with code examples.
 
 ## Contributors
 
@@ -71,4 +70,4 @@ API Dev - Mio Rogvall
 
 The MIT License (MIT) **- Free Software, Hell Yeah!**
 
-Jeffdesign.se
+[jeffdesign.se](http://www.jeffdesign.se/)
